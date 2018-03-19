@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Scroll Animation</title>
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500"
+        rel="stylesheet" type="text/css">
+    <!--Bootstrap CDN link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+    <!---->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                    aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Bootstrap Scroll Example</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#showcase">Home</a>
+                    </li>
+                    <li>
+                        <a href="#info1">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <section id="showcase">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="showcase-left">
+                        <img src="img/image1.jpg">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="showcase-right">
+                        <h1>Amazon Echo Dot (2nd Generation) - Black</h1>
+                        <p>Lorem ipsum dolor sit amet, auctor at luctus volutpat velit ut, vel et pede eu fringilla velit, tristique
+                            lacus aliquet dictum iaculis elit facilisis, consectetuer phasellus ut adipiscing sed congue
+                            urna.
+                        </p>
+                    </div>
+                    <br>
+                    <a class="btn btn-default btn-lg showcase-btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="container">
+            <p>"Lorem ipsum dolor sit amet, auctor at luctus volutpat velit ut, vel et pede eu fringilla velit, tristique lacus
+                aliquet dictum iaculis elit facilisis, consectetuer phasellus ut adipiscing sed congue urna. Lorem ipsum
+                dolor sit amet, auctor at luctus volutpat velit ut, vel et pede eu fringilla velit, tristique lacus aliquet
+                dictum iaculis elit facilisis, consectetuer ipsum dolor sit amet, auctor at luctus volutpat velit ut"
+            </p>
+            <p class="customer"> - John Wick</p>
+        </div>
+    </section>
+    <br>
+    <section id="info1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="info-left">
+                        <img src="https://target.scene7.com/is/image/Target/52132692_Alt03?wid=488&hei=488&fmt=pjpeg">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="info-right">
+                        <h2>Explore the new Amazon Echo Dot</h2>
+                        <p>Lorem ipsum dolor sit amet, auctor at luctus volutpat velit ut, vel et pede eu fringilla velit, tristique
+                            lacus aliquet dictum iaculis elit facilisis, consectetuer phasellus ut adipiscing sed congue
+                            urna.
+                        </p>
+                        <br>
+                        <a class="btn btn-default btn-lg">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="info2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="info-left">
+                        <h2>Wi-Fi connectivity</h2>
+                        <p>Dual-band Wi-Fi supports 802.11 a/b/g/n (2.4 and 5 GHz) networks. Does not support connecting to
+                            ad-hoc (or peer-to-peer) Wi-Fi networks.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="info-right">
+                        <h2>Bluetooth connectivity </h2>
+                        <p>Advanced Audio Distribution Profile (A2DP) support for audio streaming from your mobile device to
+                            Echo Dot or from Echo Dot to your Bluetooth speaker. Audio/Video Remote Control Profile (AVRCP)
+                            for voice control of connected mobile devices. Hands-free voice control is not supported for
+                            Mac OS X devices. Bluetooth speakers requiring PIN codes are not supported. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-5">
+                    <form>
+                        <div class="form-group">
+                            <label>Name: </label>
+                            <input class="form-control" type="text" name="" value="" placeholder="Enter Name">
+                        </div>
+                        <div class="form-group">
+                            <label>Email: </label>
+                            <input class="form-control" type="text" name="" value="" placeholder="Enter Email">
+                        </div>
+                        <div class="form-group">
+                            <label>Message: </label>
+                            <textarea class="form-control" name="" value="" placeholder="Enter Message"></textarea>
+                        </div>
+                        <button class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-7 col-sm-7">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="text-center">Copyright &copy; 2018</p>
+    </footer>
+
+
+    <!--Put JQuery first-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <!--Borrowed JQuery for ease scroll-->
+    <script src="js/easescroll.js"></script>
+
+</body>
+
+</html>
